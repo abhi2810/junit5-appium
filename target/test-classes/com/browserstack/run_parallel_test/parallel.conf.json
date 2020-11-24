@@ -1,0 +1,34 @@
+{
+	"server": "hub-cloud.browserstack.com",
+	"username": "abhisingh5",
+	"access_key": "E9yopbnGog6knndmwTnL",
+	"capabilities": {
+		"project": "First Junit5 Android Project",
+		"build": "Junit5 Android Parallel appium 1.18",
+		"name": "parallel_test",
+		"browserstack.debug": true,
+		"browserstack.appium_version": "1.18.0",
+		"browserstack.timezone": "Kolkata",
+		"browserstack.networkProfile": "4g-lte-high-latency",
+		"deviceOrientation": "landscape",
+		"app": "bs://336f25f485b0c1434c347c264f226b5625586a9e"
+	},
+	"environments": [
+		{
+			"device": "Google Pixel 3",
+			"os_version": "9.0"
+		},
+		{
+			"device": "Samsung Galaxy S10e",
+			"os_version": "9.0"
+		},
+		{
+			"os_version": "10.0",
+			"device": "Google Pixel 4"
+		},
+		{
+			"os_version": "9.0",
+			"device": "Samsung Galaxy S10 Plus"
+		}
+	]
+}

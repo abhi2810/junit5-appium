@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.browserstack.run_parallel_test.ParallelTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 46.754 s - in com.browserstack.run_parallel_test.ParallelTest
