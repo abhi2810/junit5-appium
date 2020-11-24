@@ -84,6 +84,11 @@ public class BrowserStackJUnitTest {
         if(app != null && !app.isEmpty()) {
             capabilities.setCapability("app", app);
         }
+        
+        String build = System.getenv("BROWSERSTACK_BUILD");
+        if(build != null && !build.isEmpty()) {
+            capabilities.setCapability("build", build);
+        }
     }
 
     @AfterEach
